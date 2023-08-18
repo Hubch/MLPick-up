@@ -1,7 +1,7 @@
 ﻿// Copyright (c) Microsoft. All rights reserved.
 // Licensed under the MIT license. See LICENSE file in the project root for full license information.
 
-namespace MLModeling.Common
+namespace MLPickup.Common
 {
     using System;
     using System.Collections.Concurrent;
@@ -11,9 +11,9 @@ namespace MLModeling.Common
     using System.Runtime.CompilerServices;
     using System.Text;
     using System.Threading;
-    using MLModeling.Common.Internal;
-    using MLModeling.Common.Internal.Logging;
-    using MLModeling.Common.Utilities;
+    using MLPickup.Common.Internal;
+    using MLPickup.Common.Internal.Logging;
+    using MLPickup.Common.Utilities;
 
     public class ResourceLeakDetector
     {

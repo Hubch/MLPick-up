@@ -1,11 +1,11 @@
 ﻿
-namespace MLModeling.Modeler.Agents
+namespace MLPickup.Modeler.Agents
 {
     using System;
     using System.Collections.Generic;
     using System.Net;
     using System.Threading.Tasks;
-    using MLModeling.Common.Concurrency;
+    using MLPickup.Common.Concurrency;
 
 
     /// <summary>

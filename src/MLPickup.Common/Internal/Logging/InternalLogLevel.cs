@@ -1,7 +1,7 @@
 // Copyright (c) Microsoft. All rights reserved.
 // Licensed under the MIT license. See LICENSE file in the project root for full license information.
 
-namespace MLModeling.Common.Internal.Logging
+namespace MLPickup.Common.Internal.Logging
 {
     /// <summary>
     /// The log level that <see cref="IInternalLogger"/> can log at.

@@ -1,13 +1,13 @@
 // Copyright (c) Microsoft. All rights reserved.
 // Licensed under the MIT license. See LICENSE file in the project root for full license information.
 
-namespace MLModeling.Common.Internal.Logging
+namespace MLPickup.Common.Internal.Logging
 {
     using System;
 
     /// <summary>
-    ///     <em>Internal-use-only</em> logger used by MLModeling. <strong>DO NOT</strong>
-    ///     access this class outside of MLModeling.
+    ///     <em>Internal-use-only</em> logger used by MLPickup. <strong>DO NOT</strong>
+    ///     access this class outside of MLPickup.
     /// </summary>
     public interface IInternalLogger
     {

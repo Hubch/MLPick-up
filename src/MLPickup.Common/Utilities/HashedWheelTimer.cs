@@ -4,7 +4,7 @@
 
 #pragma warning disable 420
 
-namespace MLModeling.Common.Utilities
+namespace MLPickup.Common.Utilities
 {
     using System;
     using System.Collections.Generic;
@@ -12,10 +12,10 @@ namespace MLModeling.Common.Utilities
     using System.Text;
     using System.Threading;
     using System.Threading.Tasks;
-    using MLModeling.Common.Concurrency;
-    using MLModeling.Common.Internal;
-    using MLModeling.Common.Internal.Logging;
-    using TaskCompletionSource = MLModeling.Common.Concurrency.TaskCompletionSource;
+    using MLPickup.Common.Concurrency;
+    using MLPickup.Common.Internal;
+    using MLPickup.Common.Internal.Logging;
+    using TaskCompletionSource = MLPickup.Common.Concurrency.TaskCompletionSource;
 
     public sealed class HashedWheelTimer : ITimer
     {

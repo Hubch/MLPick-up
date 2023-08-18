@@ -2,14 +2,14 @@
 // Licensed under the MIT license. See LICENSE file in the project root for full license information.
 
 // ReSharper disable ConvertToAutoPropertyWithPrivateSetter
-namespace MLModeling.Codecs.Redis
+namespace MLPickup.Codecs.Redis
 {
     using System;
     using System.Collections.Generic;
     using System.Text;
-    using MLModeling.Codecs.Redis.Messages;
-    using MLModeling.Common.Utilities;
-    using MLModeling.Modeler;
+    using MLPickup.Codecs.Redis.Messages;
+    using MLPickup.Common.Utilities;
+    using MLPickup.Modeler;
     public sealed class RedisDecoder : ByteToMessageDecoder
     {
         readonly ToPositiveLongProcessor toPositiveLongProcessor = new ToPositiveLongProcessor();

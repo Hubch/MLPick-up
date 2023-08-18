@@ -1,9 +1,9 @@
 ﻿
-namespace MLModeling.Modeler.Agents
+namespace MLPickup.Modeler.Agents
 {
     using System;
     using System.Collections.Concurrent;
-    using MLModeling.Common.Internal.Logging;
+    using MLPickup.Common.Internal.Logging;
 
     /// <summary>
     /// A special <see cref="IAgentHandler"/> which offers an easy way to initialize a <see cref="IAgent"/> once it was

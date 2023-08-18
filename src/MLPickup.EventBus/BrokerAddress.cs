@@ -2,7 +2,7 @@
 using System.Net;
 using System.Net.Sockets;
 
-namespace MLModeling.EventBus
+namespace MLPickup.EventBus
 {
     public class BrokerAddress
     {

@@ -2,7 +2,7 @@
 // Licensed under the MIT license. See LICENSE file in the project root for full license information.
 
 // ReSharper disable ConvertToAutoPropertyWithPrivateSetter
-namespace MLModeling.Common.Internal
+namespace MLPickup.Common.Internal
 {
     using System;
     using System.Collections;
@@ -10,7 +10,7 @@ namespace MLModeling.Common.Internal
     using System.Diagnostics.Contracts;
     using System.Runtime.CompilerServices;
     using System.Text;
-    using MLModeling.Common.Utilities;
+    using MLPickup.Common.Utilities;
 
     //
     // This is used exclusively for http headers as a buffer
@@ -19,13 +19,13 @@ namespace MLModeling.Common.Internal
     // converts each byte to char, then chars to string which implements ICharSequence 
     // in java and can be used in the same way as AsciiString.
     //
-    // This approach performs poorly on .net because MLModeling only uses AsciiString 
-    // for headers. MLModeling converts each byte to char, then chars back to bytes 
+    // This approach performs poorly on .net because MLPickup only uses AsciiString 
+    // for headers. MLPickup converts each byte to char, then chars back to bytes 
     // again when reading out to AsciiString. 
     //
     // Each byte to char and each char to byte forwards and backwards!
     //
-    // Therefore this is backed by bytes directly in MLModeling to avoid double conversions, 
+    // Therefore this is backed by bytes directly in MLPickup to avoid double conversions, 
     // and all chars are assumed to be ASCII!
     // 
     public sealed class AppendableCharSequence : ICharSequence, IAppendable, IEquatable<AppendableCharSequence>

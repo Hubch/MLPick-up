@@ -1,7 +1,7 @@
 ﻿// Copyright (c) Microsoft. All rights reserved.
 // Licensed under the MIT license. See LICENSE file in the project root for full license information.
 
-namespace MLModeling.Common.Internal
+namespace MLPickup.Common.Internal
 {
     using System;
     using System.Diagnostics.Contracts;
@@ -19,7 +19,7 @@ namespace MLModeling.Common.Internal
             var processGuid = Guid.NewGuid();
             processId = BitConverter.ToInt32(processGuid.ToByteArray(), 0);
 
-            // MLModeling expects process id to be no greater than 0x400000, so clear this higher bits:
+            // MLPickup expects process id to be no greater than 0x400000, so clear this higher bits:
             processId = processId & 0x3FFFFF;
             Contract.Assert(processId <= 0x400000);
         }

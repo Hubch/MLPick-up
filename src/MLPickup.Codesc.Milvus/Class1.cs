@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace MLModeling.Codesc.Milvus
+namespace MLPickup.Codesc.Milvus
 {
     public class Class1
     {

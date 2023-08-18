@@ -1,14 +1,14 @@
 // Copyright (c) Microsoft. All rights reserved.
 // Licensed under the MIT license. See LICENSE file in the project root for full license information.
 
-namespace MLModeling.Common.Utilities
+namespace MLPickup.Common.Utilities
 {
     using System;
 
     internal static class AttributeKey
     {
         // Keep the instance of AttributeConstantPool out of generic classes, to make it an really singleton for different generic types.
-        // see https://github.com/Azure/MLModeling/issues/498
+        // see https://github.com/Azure/MLPickup/issues/498
         public static readonly ConstantPool Pool = new AttributeConstantPool();
 
         sealed class AttributeConstantPool : ConstantPool

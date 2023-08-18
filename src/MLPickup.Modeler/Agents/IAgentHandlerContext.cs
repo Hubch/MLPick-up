@@ -1,11 +1,11 @@
 ﻿
-namespace MLModeling.Modeler.Agents
+namespace MLPickup.Modeler.Agents
 {
     using System;
     using System.Net;
     using System.Threading.Tasks;
-    using MLModeling.Common.Concurrency;
-    using MLModeling.Common.Utilities;
+    using MLPickup.Common.Concurrency;
+    using MLPickup.Common.Utilities;
 
     public interface IAgentHandlerContext : IAttributeMap
     {

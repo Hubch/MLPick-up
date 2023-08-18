@@ -1,11 +1,11 @@
 ﻿// Copyright (c) Microsoft. All rights reserved.
 // Licensed under the MIT license. See LICENSE file in the project root for full license information.
 
-namespace MLModeling.Codecs.Redis
+namespace MLPickup.Codecs.Redis
 {
     using System.Collections.Generic;
     using System.Text;
-    using MLModeling.Codecs.Redis.Messages;
+    using MLPickup.Codecs.Redis.Messages;
 
     public sealed class FixedRedisMessagePool : IRedisMessagePool
     {

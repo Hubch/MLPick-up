@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace MLModeling.Codecs
+namespace MLPickup.Codecs
 {
     public class Class1
     {

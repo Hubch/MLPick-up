@@ -2,9 +2,9 @@
 // Licensed under the MIT license. See LICENSE file in the project root for full license information.
 
 // ReSharper disable ConvertToAutoProperty
-namespace MLModeling.Codecs.Redis.Messages
+namespace MLPickup.Codecs.Redis.Messages
 {
-    using MLModeling.Buffers;
+    using MLPickup.Buffers;
 
     /// <summary>
     /// Type of RESP (Redis Serialization Protocol)

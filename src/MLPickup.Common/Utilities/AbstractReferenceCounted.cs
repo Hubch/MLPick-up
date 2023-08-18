@@ -1,5 +1,5 @@
 ﻿
-namespace MLModeling.Common.Utilities
+namespace MLPickup.Common.Utilities
 {
     using System.Diagnostics.Contracts;
     using System.Runtime.CompilerServices;

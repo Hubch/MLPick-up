@@ -1,7 +1,7 @@
 ﻿
-namespace MLModeling.Modeler.Bootstrapping
+namespace MLPickup.Modeler.Bootstrapping
 {
-    using MLModeling.Modeler.Agents;
+    using MLPickup.Modeler.Agents;
     using System;
     using System.Collections.Concurrent;
     using System.Collections.Generic;
@@ -9,9 +9,9 @@ namespace MLModeling.Modeler.Bootstrapping
     using System.Net;
     using System.Text;
     using System.Threading.Tasks;
-    using TaskCompletionSource = MLModeling.Common.Concurrency.TaskCompletionSource;
-    using MLModeling.Common.Internal.Logging;
-    using MLModeling.Common.Utilities;
+    using TaskCompletionSource = MLPickup.Common.Concurrency.TaskCompletionSource;
+    using MLPickup.Common.Internal.Logging;
+    using MLPickup.Common.Utilities;
 
     public abstract class AbstractBootstrap<TBootstrap, TAgent>
         where TBootstrap : AbstractBootstrap<TBootstrap, TAgent>

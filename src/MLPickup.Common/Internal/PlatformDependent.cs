@@ -2,7 +2,7 @@
 // Licensed under the MIT license. See LICENSE file in the project root for full license information.
 
 // ReSharper disable ConvertToAutoPropertyWhenPossible
-namespace MLModeling.Common.Internal
+namespace MLPickup.Common.Internal
 {
     using System;
     using System.Collections.Concurrent;
@@ -10,8 +10,8 @@ namespace MLModeling.Common.Internal
     using System.Diagnostics;
     using System.Runtime.CompilerServices;
     using System.Threading;
-    using MLModeling.Common.Internal.Logging;
-    using MLModeling.Common.Utilities;
+    using MLPickup.Common.Internal.Logging;
+    using MLPickup.Common.Utilities;
 
     using static PlatformDependent0;
 

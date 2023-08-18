@@ -1,5 +1,5 @@
 ﻿
-namespace MLModeling.Modeler.Agents
+namespace MLPickup.Modeler.Agents
 {
 
     using System;

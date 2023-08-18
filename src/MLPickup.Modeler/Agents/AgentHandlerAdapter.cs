@@ -1,10 +1,10 @@
 ﻿
-namespace MLModeling.Modeler.Agents
+namespace MLPickup.Modeler.Agents
 {
     using System;
     using System.Net;
     using System.Threading.Tasks;
-    using MLModeling.Common.Utilities;
+    using MLPickup.Common.Utilities;
 
     public class AgentHandlerAdapter : IAgentHandler
     {

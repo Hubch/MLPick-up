@@ -1,10 +1,10 @@
 ﻿// Copyright (c) Microsoft. All rights reserved.
 // Licensed under the MIT license. See LICENSE file in the project root for full license information.
 
-namespace MLModeling.Common
+namespace MLPickup.Common
 {
     using System;
-    using MLModeling.Common.Internal;
+    using MLPickup.Common.Internal;
 
     public static class Platform
     {

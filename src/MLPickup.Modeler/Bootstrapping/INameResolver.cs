@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MLModeling.Modeler.Bootstrapping
+namespace MLPickup.Modeler.Bootstrapping
 {
     using System.Net;
     using System.Threading.Tasks;

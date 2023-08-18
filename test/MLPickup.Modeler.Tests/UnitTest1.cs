@@ -1,7 +1,7 @@
 using System;
 using Xunit;
 
-namespace MLModeling.Modeler.Tests
+namespace MLPickup.Modeler.Tests
 {
     public class UnitTest1
     {

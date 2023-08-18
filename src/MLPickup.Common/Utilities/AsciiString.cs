@@ -3,7 +3,7 @@
 
 // ReSharper disable ConvertToAutoPropertyWhenPossible
 // ReSharper disable UseStringInterpolation
-namespace MLModeling.Common.Utilities
+namespace MLPickup.Common.Utilities
 {
     using System;
     using System.Collections;
@@ -12,7 +12,7 @@ namespace MLModeling.Common.Utilities
     using System.Runtime.CompilerServices;
     using System.Runtime.InteropServices;
     using System.Text;
-    using MLModeling.Common.Internal;
+    using MLPickup.Common.Internal;
 
     public sealed class AsciiString : ICharSequence, IEquatable<AsciiString>, IComparable<AsciiString>, IComparable
     {

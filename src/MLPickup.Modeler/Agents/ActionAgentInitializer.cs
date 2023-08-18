@@ -1,4 +1,4 @@
-﻿using MLModeling.Common.Utilities;
+﻿using MLPickup.Common.Utilities;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics.Contracts;
@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MLModeling.Modeler.Agents
+namespace MLPickup.Modeler.Agents
 {
     using System;
     using System.Diagnostics.Contracts;

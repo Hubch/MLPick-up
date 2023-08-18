@@ -1,15 +1,15 @@
 ﻿// Copyright (c) Microsoft. All rights reserved.
 // Licensed under the MIT license. See LICENSE file in the project root for full license information.
 
-namespace MLModeling.Common
+namespace MLPickup.Common
 {
     using System;
     using System.Collections.Generic;
     using System.Diagnostics.Contracts;
     using System.Threading;
-    using MLModeling.Common.Concurrency;
-    using MLModeling.Common.Internal;
-    using MLModeling.Common.Internal.Logging;
+    using MLPickup.Common.Concurrency;
+    using MLPickup.Common.Internal;
+    using MLPickup.Common.Internal.Logging;
 
     public static class ThreadDeathWatcher
     {

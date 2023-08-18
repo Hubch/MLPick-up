@@ -1,5 +1,5 @@
 ﻿
-namespace MLModeling.Modeler.Bootstrapping
+namespace MLPickup.Modeler.Bootstrapping
 {
     using System;
     using System.Collections.Concurrent;
@@ -7,9 +7,9 @@ namespace MLModeling.Modeler.Bootstrapping
     using System.Linq;
     using System.Text;
     using System.Threading.Tasks;
-    using MLModeling.Common.Internal.Logging;
-    using MLModeling.Common.Utilities;
-    using MLModeling.Modeler.Agents;
+    using MLPickup.Common.Internal.Logging;
+    using MLPickup.Common.Utilities;
+    using MLPickup.Modeler.Agents;
 
     /// <summary>
     /// A <see cref="Bootstrap"/> sub-class which allows easy bootstrapping of <see cref="IServerAgent"/>.

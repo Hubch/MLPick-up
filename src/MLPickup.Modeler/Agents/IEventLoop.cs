@@ -1,7 +1,7 @@
 ﻿
-namespace MLModeling.Modeler.Agents
+namespace MLPickup.Modeler.Agents
 {
-    using MLModeling.Common.Concurrency;
+    using MLPickup.Common.Concurrency;
 
     /// <summary>
     /// <see cref="IEventExecutor"/> specialized to handle I/O operations of assigned <see cref="IChannel"/>s.

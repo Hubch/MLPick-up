@@ -1,7 +1,7 @@
 ﻿// Copyright (c) Microsoft. All rights reserved.
 // Licensed under the MIT license. See LICENSE file in the project root for full license information.
 
-namespace MLModeling.Common.Internal.Logging
+namespace MLPickup.Common.Internal.Logging
 {
     using System;
     using System.Diagnostics.Contracts;
@@ -11,8 +11,8 @@ namespace MLModeling.Common.Internal.Logging
     /// <summary>
     ///     Creates an <see cref="IInternalLogger" /> or changes the default factory
     ///     implementation. This factory allows you to choose what logging framework
-    ///     MLModeling should use.  The default factory is own <see cref="LoggerFactory"/> with <see cref="EventSourceLoggerProvider" /> registered.
-    ///     You can change it to your preferred logging framework before other MLModeling classes are loaded:
+    ///     MLPickup should use.  The default factory is own <see cref="LoggerFactory"/> with <see cref="EventSourceLoggerProvider" /> registered.
+    ///     You can change it to your preferred logging framework before other MLPickup classes are loaded:
     ///     <pre>
     ///         <code>InternalLoggerFactory.DefaultFactory = new LoggerFactory();</code>
     ///     </pre>

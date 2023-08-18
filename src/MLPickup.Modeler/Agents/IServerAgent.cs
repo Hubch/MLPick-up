@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MLModeling.Modeler.Agents
+namespace MLPickup.Modeler.Agents
 {
     public interface IServerAgent : IAgent
     {

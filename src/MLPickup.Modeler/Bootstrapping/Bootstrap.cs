@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MLModeling.Modeler.Bootstrapping
+namespace MLPickup.Modeler.Bootstrapping
 {
     using System;
     using System.Collections.Generic;
@@ -12,9 +12,9 @@ namespace MLModeling.Modeler.Bootstrapping
     using System.Net;
     using System.Text;
     using System.Threading.Tasks;
-    using MLModeling.Common.Internal.Logging;
-    using MLModeling.Modeler.Agents;
-    using TaskCompletionSource = MLModeling.Common.Concurrency.TaskCompletionSource;
+    using MLPickup.Common.Internal.Logging;
+    using MLPickup.Modeler.Agents;
+    using TaskCompletionSource = MLPickup.Common.Concurrency.TaskCompletionSource;
 
     /// <summary>
     /// A <see cref="Bootstrap"/> that makes it easy to bootstrap an <see cref="IAgent"/> to use for clients.

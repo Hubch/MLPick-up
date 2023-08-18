@@ -1,8 +1,8 @@
-﻿using MLModeling.Common.Concurrency;
-using MLModeling.Common.Internal.Logging;
-using MLModeling.Common.Utilities;
+﻿using MLPickup.Common.Concurrency;
+using MLPickup.Common.Internal.Logging;
+using MLPickup.Common.Utilities;
 
-namespace MLModeling.Modeler.Agents
+namespace MLPickup.Modeler.Agents
 {
 
     using System;
@@ -10,7 +10,7 @@ namespace MLModeling.Modeler.Agents
     using System.Diagnostics;
     using System.Diagnostics.Contracts;
     using System.Threading;
-    using MLModeling.Common;
+    using MLPickup.Common;
 
     public sealed class AgentOutboundBuffer
     {

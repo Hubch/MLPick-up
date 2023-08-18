@@ -1,7 +1,7 @@
 ﻿// Copyright (c) Microsoft. All rights reserved.
 // Licensed under the MIT license. See LICENSE file in the project root for full license information.
 
-namespace MLModeling.Common.Internal
+namespace MLPickup.Common.Internal
 {
     using System;
     using System.Linq;
@@ -10,8 +10,8 @@ namespace MLModeling.Common.Internal
     using System.Net.Sockets;
     using System.Text;
     using System.Collections.Generic;
-    using MLModeling.Common.Internal.Logging;
-    using MLModeling.Common.Utilities;
+    using MLPickup.Common.Internal.Logging;
+    using MLPickup.Common.Utilities;
 
     public static class MacAddressUtil
     {

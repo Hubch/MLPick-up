@@ -1,11 +1,11 @@
 ﻿
-namespace MLModeling.Modeler.Agents
+namespace MLPickup.Modeler.Agents
 {
     using System;
     using System.Threading.Tasks;
-    using MLModeling.Common.Concurrency;
-    using MLModeling.Common.Internal.Logging;
-    using TaskCompletionSource = MLModeling.Common.Concurrency.TaskCompletionSource;
+    using MLPickup.Common.Concurrency;
+    using MLPickup.Common.Internal.Logging;
+    using TaskCompletionSource = MLPickup.Common.Concurrency.TaskCompletionSource;
 
     static class Util
     {

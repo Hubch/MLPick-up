@@ -11,8 +11,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "example", "example", "{0F06
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{3F1EB4EA-BD8F-4988-9142-821439050A40}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MLPickup.Modeler.Tests", "test\MLModeling.Modeler.Tests\MLPickup.Modeler.Tests.csproj", "{4A545E13-6F1E-4E23-9418-5C9ABF28CE75}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MLPickup.Codecs", "src\MLPickup.Codecs\MLPickup.Codecs.csproj", "{E3215802-92F0-40B7-B579-E68C560235DE}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MLPickup.Codecs.Redis", "src\MLPickup.Codecs.Redis\MLPickup.Codecs.Redis.csproj", "{107C106D-6946-4205-9073-17F7165A6284}"
@@ -27,6 +25,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MLPickup.Handlers", "src\ML
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MLPickup.Modeler", "src\MLPickup.Modeler\MLPickup.Modeler.csproj", "{98DC4703-56CA-4569-86BF-BEC4C8063114}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MLPickup.Modeler.Tests", "test\MLPickup.Modeler.Tests\MLPickup.Modeler.Tests.csproj", "{BB57297E-01EE-4FCE-AB30-811F5B7AACF8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -34,12 +34,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4A545E13-6F1E-4E23-9418-5C9ABF28CE75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4A545E13-6F1E-4E23-9418-5C9ABF28CE75}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4A545E13-6F1E-4E23-9418-5C9ABF28CE75}.Package|Any CPU.ActiveCfg = Release|Any CPU
-		{4A545E13-6F1E-4E23-9418-5C9ABF28CE75}.Package|Any CPU.Build.0 = Release|Any CPU
-		{4A545E13-6F1E-4E23-9418-5C9ABF28CE75}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4A545E13-6F1E-4E23-9418-5C9ABF28CE75}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E3215802-92F0-40B7-B579-E68C560235DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E3215802-92F0-40B7-B579-E68C560235DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E3215802-92F0-40B7-B579-E68C560235DE}.Package|Any CPU.ActiveCfg = Package|Any CPU
@@ -82,12 +76,17 @@ Global
 		{98DC4703-56CA-4569-86BF-BEC4C8063114}.Package|Any CPU.Build.0 = Package|Any CPU
 		{98DC4703-56CA-4569-86BF-BEC4C8063114}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{98DC4703-56CA-4569-86BF-BEC4C8063114}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB57297E-01EE-4FCE-AB30-811F5B7AACF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB57297E-01EE-4FCE-AB30-811F5B7AACF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB57297E-01EE-4FCE-AB30-811F5B7AACF8}.Package|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB57297E-01EE-4FCE-AB30-811F5B7AACF8}.Package|Any CPU.Build.0 = Debug|Any CPU
+		{BB57297E-01EE-4FCE-AB30-811F5B7AACF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB57297E-01EE-4FCE-AB30-811F5B7AACF8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{4A545E13-6F1E-4E23-9418-5C9ABF28CE75} = {96FD43C0-F259-4DA6-88EE-7F630BDD75F3}
 		{E3215802-92F0-40B7-B579-E68C560235DE} = {02202A23-B295-4F91-BADF-B254D5C25953}
 		{107C106D-6946-4205-9073-17F7165A6284} = {02202A23-B295-4F91-BADF-B254D5C25953}
 		{2B0D5DC4-5878-4570-9A78-87F6344A76A2} = {02202A23-B295-4F91-BADF-B254D5C25953}
@@ -95,6 +94,7 @@ Global
 		{7888350B-B54B-412B-81E4-BD3D498F8AD7} = {02202A23-B295-4F91-BADF-B254D5C25953}
 		{73A11B89-0D04-449B-866B-BA9DF634551E} = {02202A23-B295-4F91-BADF-B254D5C25953}
 		{98DC4703-56CA-4569-86BF-BEC4C8063114} = {02202A23-B295-4F91-BADF-B254D5C25953}
+		{BB57297E-01EE-4FCE-AB30-811F5B7AACF8} = {96FD43C0-F259-4DA6-88EE-7F630BDD75F3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D77717BB-F89E-4496-A4CA-24BEB17F3BED}

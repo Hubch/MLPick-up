@@ -1,14 +1,14 @@
 // Copyright (c) Microsoft. All rights reserved.
 // Licensed under the MIT license. See LICENSE file in the project root for full license information.
 
-namespace MLModeling.Common.Concurrency
+namespace MLPickup.Common.Concurrency
 {
     using System;
     using System.Diagnostics.Contracts;
     using System.Linq;
     using System.Threading;
     using System.Threading.Tasks;
-    using MLModeling.Common.Utilities;
+    using MLPickup.Common.Utilities;
 
     /// <summary>
     ///     Abstract base class for <see cref="IEventExecutor" />s that need to support scheduling.

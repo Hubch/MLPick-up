@@ -1,12 +1,12 @@
 ﻿// Copyright (c) Microsoft. All rights reserved.
 // Licensed under the MIT license. See LICENSE file in the project root for full license information.
 
-namespace MLModeling.Codecs.Redis.Messages
+namespace MLPickup.Codecs.Redis.Messages
 {
     using System.Text;
-    using MLModeling.Buffers;
-    using MLModeling.Common;
-    using MLModeling.Common.Utilities;
+    using MLPickup.Buffers;
+    using MLPickup.Common;
+    using MLPickup.Common.Utilities;
 
     public sealed class FullBulkStringRedisMessage : DefaultByteBufferHolder, IFullBulkStringRedisMessage
     {

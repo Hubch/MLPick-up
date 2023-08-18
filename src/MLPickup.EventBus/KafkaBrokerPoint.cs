@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MLModeling.EventBus
+namespace MLPickup.EventBus
 {
     public class KafkaBrokerPoint : BrokerPoint
     {

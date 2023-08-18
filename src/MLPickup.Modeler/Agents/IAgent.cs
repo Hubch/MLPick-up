@@ -1,7 +1,7 @@
 ﻿
-namespace MLModeling.Modeler.Agents
+namespace MLPickup.Modeler.Agents
 {
-    using MLModeling.Common.Utilities;
+    using MLPickup.Common.Utilities;
     using System;
     using System.Net;
     using System.Threading.Tasks;

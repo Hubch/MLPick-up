@@ -1,17 +1,17 @@
 // Copyright (c) Microsoft. All rights reserved.
 // Licensed under the MIT license. See LICENSE file in the project root for full license information.
 
-namespace MLModeling.Common
+namespace MLPickup.Common
 {
     using System;
     using System.Collections.Generic;
     using System.Runtime.CompilerServices;
     using System.Text;
     using System.Threading;
-    using MLModeling.Common.Utilities;
+    using MLPickup.Common.Utilities;
 
     /// <summary>
-    /// The internal data structure that stores the thread-local variables for MLModeling and all
+    /// The internal data structure that stores the thread-local variables for MLPickup and all
     /// <see cref="FastThreadLocal"/>s. Note that this class is for internal use only and is subject to change at any
     /// time. Use <see cref="FastThreadLocal"/> unless you know what you are doing.
     /// </summary>

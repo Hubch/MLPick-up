@@ -3,7 +3,7 @@ using System.Net.Sockets;
 using System.Net;
 using System;
 
-namespace MLModeling.EventBus
+namespace MLPickup.EventBus
 {
     /// <summary>
     /// 标识消息地址

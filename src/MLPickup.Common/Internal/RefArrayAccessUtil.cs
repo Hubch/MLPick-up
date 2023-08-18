@@ -1,4 +1,4 @@
-﻿namespace MLModeling.Common.Internal
+﻿namespace MLPickup.Common.Internal
 {
     using System;
     using System.Threading;

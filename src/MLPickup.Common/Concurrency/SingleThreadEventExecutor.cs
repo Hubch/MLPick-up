@@ -1,7 +1,7 @@
 // Copyright (c) Microsoft. All rights reserved.
 // Licensed under the MIT license. See LICENSE file in the project root for full license information.
 
-namespace MLModeling.Common.Concurrency
+namespace MLPickup.Common.Concurrency
 {
     using System;
     using System.Collections.Generic;
@@ -10,8 +10,8 @@ namespace MLModeling.Common.Concurrency
     using System.Linq;
     using System.Threading;
     using System.Threading.Tasks;
-    using MLModeling.Common.Internal;
-    using MLModeling.Common.Internal.Logging;
+    using MLPickup.Common.Internal;
+    using MLPickup.Common.Internal.Logging;
 
     /// <summary>
     /// <see cref="IEventExecutor"/> backed by a single thread.

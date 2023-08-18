@@ -3,7 +3,7 @@
 
 // ReSharper disable ConvertToAutoProperty
 // ReSharper disable ConvertToAutoPropertyWhenPossible
-namespace MLModeling.Common.Utilities
+namespace MLPickup.Common.Utilities
 {
     using System;
     using System.Collections;
