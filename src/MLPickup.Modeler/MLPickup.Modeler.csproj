@@ -12,6 +12,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\MLPickup.Codecs.Redis\MLPickup.Codecs.Redis.csproj" />
+    <ProjectReference Include="..\MLPickup.Codecs\MLPickup.Codecs.csproj" />
+    <ProjectReference Include="..\MLPickup.Codesc.Milvus\MLPickup.Codesc.Milvus.csproj" />
     <ProjectReference Include="..\MLPickup.Common\MLPickup.Common.csproj" />
     <ProjectReference Include="..\MLPickup.EventBus\MLPickup.EventBus.csproj" />
     <ProjectReference Include="..\MLPickup.Handlers\MLPickup.Handlers.csproj" />
