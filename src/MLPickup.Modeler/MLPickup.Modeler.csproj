@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net5.0</TargetFrameworks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Agents\Models\" />
+    <Folder Include="Agents\Groups\" />
+    <Folder Include="Agents\Pool\" />
+    <Folder Include="Agents\Local\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MLModeling.Common\MLPickup.Common.csproj" />
+    <ProjectReference Include="..\MLModeling.EventBus\MLPickup.EventBus.csproj" />
+    <ProjectReference Include="..\MLModeling.Handlers\MLPickup.Handlers.csproj" />
+  </ItemGroup>
+
+</Project>
